@@ -17,9 +17,9 @@ body{
 .main-container{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 110vh;
     background-color: #A6E0F4;
-    margin-inline: 13%;
+    margin-inline: 17%;
     margin-block: 3%;
     position: relative;
 }
@@ -56,6 +56,7 @@ header{
 
 .center-nav h2{
     font-weight: bold;
+    cursor: pointer;
 }
 .center-nav h2 span{
     color: red;
@@ -90,4 +91,10 @@ header{
     background-color: red;
     color: white;
     cursor: pointer;
+}
+.main-container>img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 500px;
 }
