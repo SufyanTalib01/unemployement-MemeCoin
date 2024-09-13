@@ -17,18 +17,23 @@ body{
 .main-container{
     display: flex;
     flex-direction: column;
-    min-height: 110vh;
+    /* min-height: 110vh; */
+    min-height: 611px;
     background-color: #A6E0F4;
     margin-inline: 17%;
     margin-block: 3%;
     position: relative;
+    border: 1.5px solid black;
+    box-shadow: 4px 3px 0px 0px rgba(0,0,0,0.98);
+    border-radius: 10px;
+
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-inline: 30px;
-    margin-top: 10px;
+    margin-inline: 75px;
+    margin-top: 21px;
     border: 2px solid black;
     /* padding-block: 5px; */
     padding-inline: 10px;
@@ -97,4 +102,97 @@ header{
     position: absolute;
     bottom: 0;
     height: 500px;
+}
+
+/* ALL TEXT  */
+
+.all-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: red; */
+    width: 400px;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.heading{
+    max-width: 260px;
+    color: #FAD75D;
+    font-weight: bold;
+    position: relative;
+}
+.heading img{
+    position: absolute;
+    height: 62px;
+    top: -27px;
+    right: -10px;
+}
+.heading h2{
+    /* font-family: "Archivo Black", sans-serif; */
+    -webkit-text-stroke: 2px black;
+    font-weight: bolder;
+    /* outline: 2px solid black; */
+}
+
+.all-text p{
+    font-size: 11px;
+    max-width: 335px;
+}
+.btns{
+    margin-top: 10px;
+}
+.btns button:nth-child(1){
+    font-size: 7px;
+    font-weight: bold;
+    padding-inline: 7px;
+    padding-block: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.98);
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.btns button:nth-child(2){
+    font-size: 7px;
+    font-weight: bold;
+    padding-inline: 7px;
+    padding-block: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.98);
+    background-color: #33AAFE;
+    color: white;
+    cursor: pointer;
+}
+/* CONTRACT  */
+
+.contract{
+    font-size: 10px;
+    font-weight: 500;
+    padding-inline: 7px;
+    padding-block: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.98);
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    max-width: 250px;
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+}
+.contract span:nth-child(1){
+    font-weight: bold;
+    font-size: 11px;
+}
+.contract i{
+    margin-left: 4px;
+}
+.contract img{
+    position: absolute;
+    height: 50px;
+    left: -30px;
+    top: -25px;
 }
